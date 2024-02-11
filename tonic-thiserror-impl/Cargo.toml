@@ -1,0 +1,19 @@
+[package]
+name = "tonic-thiserror-impl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lorenzo Rizzotti <me@dreaming.codes>"]
+license = "MIT"
+description = "Thiserror integration for tonic"
+readme = "../README.md"
+homepage = "https://github.com/dreamingechoes/tonic-thiserror"
+repository = "https://github.com/dreamingechoes/tonic-thiserror"
+keywords = ["tonic", "thiserror", "error", "grpc", "rust"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.78"
+quote = "1.0.35"
+syn = "1"

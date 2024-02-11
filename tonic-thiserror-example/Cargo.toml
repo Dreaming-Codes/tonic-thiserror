@@ -1,0 +1,23 @@
+[package]
+name = "tonic-thiserror-example"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lorenzo Rizzotti <me@dreaming.codes>"]
+license = "MIT"
+publish = false
+
+[dependencies]
+thiserror = "1.0.57"
+tonic = "0.11.0"
+tonic-thiserror = { path = ".." }
+
+[build-dependencies]
+tonic-build = "0.11.0"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
