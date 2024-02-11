@@ -6,8 +6,8 @@ authors = ["Lorenzo Rizzotti <me@dreaming.codes>"]
 license = "MIT"
 description = "Thiserror integration for tonic"
 readme = "README.md"
-homepage = "https://github.com/dreamingechoes/tonic-thiserror"
-repository = "https://github.com/dreamingechoes/tonic-thiserror"
+homepage = "https://github.com/Dreaming-Codes/tonic-thiserror"
+repository = "https://github.com/Dreaming-Codes/tonic-thiserror"
 keywords = ["tonic", "thiserror", "error", "grpc", "rust"]
 
 [dependencies]
