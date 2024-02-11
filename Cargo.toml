@@ -13,7 +13,7 @@ keywords = ["tonic", "thiserror", "error", "grpc", "rust"]
 [dependencies]
 thiserror = "1.0.57"
 tonic = "0.11.0"
-tonic-thiserror-impl = { path = "tonic-thiserror-impl" }
+tonic-thiserror-impl = { path = "tonic-thiserror-impl", version = "0.1.0" }
 
 [workspace]
 members = ["tonic-thiserror-example", "tonic-thiserror-impl"]
